@@ -116,14 +116,14 @@ export default function Home() {
         <div className="hero-photo"><img src={photos.hero} alt="Aerial view of a tropical island surrounded by turquoise lagoon and deep blue ocean" /></div>
         <div className="hero-shade" />
         <header className="nav-shell">
-          <a className="wordmark" href="#discover" aria-label="Voyare home">V<span>O</span>YARE<span className="wordmark-dot">.</span></a>
+          <a className="wordmark" href="#discover" aria-label="Khadi Trip home">KHADI TRIP<span className="wordmark-dot">.</span></a>
           <nav className="main-nav" aria-label="Main navigation">{[["discover", "Discover"], ["destinations", "Destinations"], ["experiences", "Experiences"], ["manifesto", "Journal"]].map(([id, label]) => <a key={id} href={`#${id}`} className={activeSection === id ? "is-active" : undefined} aria-current={activeSection === id ? "location" : undefined} onClick={() => setActiveSection(id)}>{label}</a>)}</nav>
           <a className="nav-cta magnetic" href="https://shohan-portfolio-tau.vercel.app/" target="_blank" rel="noopener noreferrer">BUY THIS WEBSITE <Arrow diagonal /></a>
           <a className="mobile-menu" href="#destinations" aria-label="Explore destinations">Explore <span>↓</span></a>
         </header>
         <div className="hero-content">
           <p className="eyebrow hero-kicker"><span className="live-dot" /> A different kind of elsewhere <span className="eyebrow-line" /></p>
-          <h1><span className="line-mask"><span className="hero-line">Unforgettable</span></span><span className="line-mask"><span className="hero-line serif-word">Travel Moments</span></span><span className="line-mask"><span className="hero-line">by Voyare</span></span></h1>
+          <h1><span className="line-mask"><span className="hero-line">Unforgettable</span></span><span className="line-mask"><span className="hero-line serif-word">Travel Moments</span></span><span className="line-mask"><span className="hero-line">by Khadi Trip</span></span></h1>
           <p className="hero-note">Thoughtful escapes to faraway shores,<br />made for the moments that stay with you.</p>
         </div>
         <a className="scroll-cue" href="#destinations"><span>Scroll to wander</span><i /></a>
@@ -160,15 +160,15 @@ export default function Home() {
       </section>
 
       <section className="manifesto section-pad" id="manifesto">
-        <div className="manifesto-top rise"><p className="eyebrow dark-eyebrow">A note from the elsewhere</p><span className="manifesto-star">✳</span><span className="manifesto-edition">THE VOYARE<br />TRAVEL NOTES · 01</span></div>
+        <div className="manifesto-top rise"><p className="eyebrow dark-eyebrow">A note from the elsewhere</p><span className="manifesto-star">✳</span><span className="manifesto-edition">KHADI TRIP<br />TRAVEL NOTES · 01</span></div>
         <div className="manifesto-layout"><div className="manifesto-copy"><h2><span className="manifesto-words">Collect</span> <span className="manifesto-words serif-word">Moments.</span><br /><span className="manifesto-words">Not</span> <span className="manifesto-words coral-type">Miles.</span></h2><p className="manifesto-body rise">Leave the familiar at the door. Take the winding road, say yes to the long lunch, learn the name of the person who made your coffee. The world opens up in the little things — and we’re here to help you find them.</p><a className="text-link rise" href="#contact">A little more about us <Arrow /></a><span className="hand-note">go where you feel most alive <b>↗</b></span></div>
           <div className="manifesto-collage"><figure className="collage-shot collage-one"><img className="reveal-image" src={photos.collage1} alt="Cinque Terre village overlooking the Italian coastline" /><figcaption>Somewhere along the coast, Italy</figcaption></figure><figure className="collage-shot collage-two"><img className="reveal-image" src={photos.collage2} alt="Sunlit coral reef patterns beneath clear turquoise water" /><figcaption>Blue beneath the surface</figcaption></figure><figure className="collage-shot collage-three"><img className="reveal-image" src={photos.collage3} alt="Aerial tropical beach with white sand and turquoise surf" /><span>Take a breath.</span></figure><span className="collage-scribble">the world<br />is waiting</span></div></div>
       </section>
 
       <footer className="footer" id="contact">
         <div className="footer-photo"><img src={photos.footer} alt="Aerial tropical shoreline with turquoise water breaking around a palm-lined beach" /></div><div className="footer-shade" />
-        <div className="footer-main"><div className="footer-heading"><p className="eyebrow light-eyebrow"><span className="live-dot" /> Your next chapter</p><h2>Your Next Story<br /><em>Starts Somewhere.</em></h2><a className="footer-cta magnetic" href="mailto:hello@voyare.travel">Let’s Explore <Arrow diagonal /></a></div>
-          <div className="footer-bottom"><div className="footer-brand"><a className="wordmark" href="#discover">V<span>O</span>YARE<span className="wordmark-dot">.</span></a><p>For the feeling of being<br />somewhere else entirely.</p></div><nav aria-label="Footer navigation" className="footer-links"><a href="#discover">Discover</a><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#manifesto">Journal</a></nav><div className="footer-social"><span>FIND US OUT THERE</span><div><a href="#contact" aria-label="Instagram">IG</a><a href="#contact" aria-label="Pinterest">PI</a><a href="#contact" aria-label="TikTok">TK</a></div></div><div className="footer-meta"><span>© VOYARE 2026</span><span>MADE FOR THE WAY YOU FEEL</span><a href="#discover" className="back-top">Back to top ↑</a></div></div>
+        <div className="footer-main"><div className="footer-heading"><p className="eyebrow light-eyebrow"><span className="live-dot" /> Your next chapter</p><h2>Your Next Story<br /><em>Starts Somewhere.</em></h2><a className="footer-cta magnetic" href="#destinations">Let’s Explore <Arrow diagonal /></a></div>
+          <div className="footer-bottom"><div className="footer-brand"><a className="wordmark" href="#discover" aria-label="Khadi Trip home">KHADI TRIP<span className="wordmark-dot">.</span></a><p>For the feeling of being<br />somewhere else entirely.</p></div><nav aria-label="Footer navigation" className="footer-links"><a href="#discover">Discover</a><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#manifesto">Journal</a></nav><div className="footer-social"><span>FIND US OUT THERE</span><div><a href="#contact" aria-label="Instagram">IG</a><a href="#contact" aria-label="Pinterest">PI</a><a href="#contact" aria-label="TikTok">TK</a></div></div><div className="footer-meta"><span>© KHADI TRIP 2026</span><span>MADE FOR THE WAY YOU FEEL</span><a href="#discover" className="back-top">Back to top ↑</a></div></div>
         </div>
       </footer>
     </main>

@@ -2,8 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "VOYARE — The World Is Yours to Feel",
-  description: "Thoughtful escapes to places that stay with you. Discover the world with VOYARE.",
+  title: "Khadi Trip — Unforgettable Travel Moments",
+  description: "Thoughtful escapes to places that stay with you. Discover the world with Khadi Trip.",
+  openGraph: {
+    title: "Khadi Trip — Unforgettable Travel Moments",
+    description: "Thoughtful escapes to places that stay with you. Discover the world with Khadi Trip.",
+    siteName: "Khadi Trip",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

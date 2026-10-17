@@ -33,6 +33,13 @@
   .manifesto-copy h2{white-space:normal;font-size:clamp(50px,15.4vw,58px)}
 }
 
+/* The expanded two word lockup and closing hero line retain their balance. */
+.wordmark{white-space:nowrap;letter-spacing:.09em}
+.wordmark>span:first-child{font-family:inherit;font-weight:inherit;font-style:normal;letter-spacing:inherit}
+.hero h1 .line-mask:last-child .hero-line{font-size:.9em;letter-spacing:-.07em}
+@media(max-width:640px){.nav-shell .wordmark{font-size:11px;letter-spacing:.045em}}
+@media(max-width:370px){.nav-shell .wordmark{font-size:10px;letter-spacing:.025em}}
+
 /* Reference-led cinematic ocean hero */
 .hero-photo img{object-position:center 48%;transform:scale(1.035);filter:saturate(1.08) contrast(1.02)}
 .hero-shade{background:linear-gradient(90deg,rgba(3,29,39,.42) 0%,rgba(3,36,43,.17) 48%,rgba(3,36,43,.05) 100%),linear-gradient(0deg,rgba(3,31,39,.43),transparent 42%)}
